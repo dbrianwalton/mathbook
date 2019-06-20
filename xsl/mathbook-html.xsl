@@ -8500,8 +8500,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <xsl:value-of select="@geogebra" />
                 <xsl:text>",&#xa;</xsl:text>
             </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>perspective:'G',&#xa;</xsl:text>
+            </xsl:otherwise>
         </xsl:choose>
-        <xsl:text>preventFocus:true,&#xa;</xsl:text>
         <xsl:text>width:</xsl:text><xsl:value-of select="$width" />
         <xsl:text>,&#xa;</xsl:text>
         <xsl:text>height:</xsl:text><xsl:value-of select="$height" />

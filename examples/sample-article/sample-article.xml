@@ -4826,7 +4826,6 @@ the xsltproc executable.
                     <caption>GeoGebra: from scratch</caption>
                     <interactive xml:id="geogebra-seed-head" platform="geogebra" width="50%" aspect="1:1">
                         <slate xml:id="seed-head" surface="geogebra" aspect="1:1">
-                            setPerspective("G");
                             setRounding("3s");
                             setCoordSystem(-1,1,-1,1);
                             setGridVisible(false);
